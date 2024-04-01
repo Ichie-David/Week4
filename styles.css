@@ -1,0 +1,116 @@
+*{
+    font-family: "Montaga", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background-color: #f0ccbb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 25px 60px 25px 88px;
+}
+
+.logo {
+    color: #C6754D;
+    display: flex;
+    justify-content: flex-start;
+    gap: 9px;
+    font-size: 20px;
+    align-items: center;
+}
+
+nav button {
+    border: none;
+    padding: 8px 40px;
+    margin-left: 0;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #000000;
+}
+
+.container-ido {
+    padding: 0 88px 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.i-do {
+    gap: 40px;
+}
+
+.i-do h2 {
+    font-size: 70px;
+    line-height: 98.56px;
+    margin-top: 130px;
+    font-weight: 400;
+}
+
+.i-do p {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: #231F20;
+}
+
+.i-do button {
+    background-color: #C6754D;
+    padding: 14px 24px;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.couple {
+    margin-top: 64px;
+    margin-bottom: 72px;;
+    border-radius: 800px;
+    margin-left: 87px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    margin: 88px;
+    align-items: center;
+    font-weight: 400;
+}
+
+.second h2 {
+    font-size: 72px;
+    color: #000000;
+    width: 80%;
+}
+
+.second p {
+    color: #231F20;
+    font-size: 19.3px;
+    line-height: 33px;
+    margin-left: 205px;
+}
+
+.ring img {
+    width: 100%;
+    margin-bottom: 88px;
+}
+
+footer {
+    padding: 40px;
+    background-color: #FCF9F7;
+    gap: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 22px;
+}
+
+a {
+    color: #000000;
+}
