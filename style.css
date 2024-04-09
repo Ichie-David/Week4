@@ -102,3 +102,54 @@ footer {
 footer a {
     color: black;
 }
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width: 733px) {
+    .sec-ll {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hh {
+        padding-top: 1.5rem;
+        padding-bottom: 10px;
+        justify-content: space-between;
+    }
+
+    .section1 {
+        flex-direction: column;
+
+    }
+
+    .first-part {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 80px;
+        font-size: 2.5rem;
+    }
+
+    .i-do {
+        width: 100%;
+    }
+
+    .section2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .d-story {
+        margin-top: 24px;
+    }
+
+    footer p {
+        margin-bottom: 40px;
+    }
+
+}
