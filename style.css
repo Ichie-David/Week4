@@ -106,6 +106,73 @@ footer a {
     display: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.our-story {
+    color: #C6754D;
+}
+
+.duo {
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+
+.duo2 {
+    position: absolute;
+    bottom: -15rem;
+    right: 8rem;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 88px;
+}
+
+.section-2 div h2 {
+    margin-bottom: 5%;
+}
+
+.when {
+    margin-right: 6%;
+}
+
+.love-meet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.meet {
+    background-color: #C6754D;
+    padding-bottom: 3% ;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 15%;
+    color: azure;
+    position: absolute;
+    right: 7%;
+}
+
+.meet h2 {
+    margin-bottom: 7%;
+}
+
+.flower {
+    position: absolute;
+    right: 0%;
+    bottom: -110%;
+}
 
 @media screen and (max-width: 733px) {
     .sec-ll {
