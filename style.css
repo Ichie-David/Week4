@@ -142,8 +142,17 @@ a {
     margin-bottom: 5%;
 }
 
+.section-2 span {
+    color: #C6754D;
+    font-size: 1.5rem;
+}
+
 .when {
     margin-right: 6%;
+}
+
+.ring-story {
+    display: none;
 }
 
 .love-meet {
@@ -172,13 +181,13 @@ a {
 .flower {
     position: absolute;
     right: 0%;
-    bottom: -110%;
+    bottom: -120%;
 }
 
 .flower2 {
     position: absolute;
     right: 63%;
-    bottom: -161%;    
+    bottom: -163%;    
 }
 
 .last {
@@ -265,6 +274,79 @@ footer {
         width: 100%;
     }
 
+    .duo {
+        margin-right: 60%;
+    }
+
+    .duo2 {
+        position: absolute;
+        top: 160%;
+        right: 10%;
+    }
+
+    .flower {
+        width: 20%;
+        position: absolute;
+        top: 425%;
+        right: -4%;
+    }
+
+    .flower2 {
+        display: none;
+    }
+
+    .section-2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ring-story img {
+        display: block;
+        width: 100%;
+        height: 30rem;
+    }
+
+    .ring-story {
+        display: block;
+        margin-bottom: 10%;
+    }
+    
+    .love-meet {
+        display: block;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .meet {
+        padding: 7%;
+        position: absolute;
+        top: 420%;
+        left: 10%;
+        font-size: 1.5rem;
+    }
+
+    .river {
+        margin-top: 40%;
+        width: 100%;
+        height: 100%;
+    }
+    .venue {
+        padding-top: 5%;
+    }
+
+    .groom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bride {
+       display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
     .section2 {
         flex-direction: column;
         align-items: flex-start;
