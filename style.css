@@ -151,6 +151,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-left: 8%;
+    padding-bottom: 5%;
 }
 
 .meet {
@@ -159,7 +160,7 @@ a {
     padding-top: 3%;
     padding-left: 4%;
     padding-right: 15%;
-    color: azure;
+    color: #FCF9F7;
     position: absolute;
     right: 7%;
 }
@@ -172,6 +173,64 @@ a {
     position: absolute;
     right: 0%;
     bottom: -110%;
+}
+
+.flower2 {
+    position: absolute;
+    right: 63%;
+    bottom: -161%;    
+}
+
+.last {
+    background-color: #97917A;
+    padding-top: 7%;
+}
+
+.last h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #FCF9F7;
+}
+
+.last p {
+    color: #FCF9F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.last h2 {
+    font-size: 2.5rem;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    color: #FCF9F7;
+
+}
+.groom {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+}
+
+.bride {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+
+.wed {
+    padding-right: 5%;
+    padding-left: 3%;
+    padding-bottom: 7%;
+}
+
+footer {
+    padding: 2%;
 }
 
 @media screen and (max-width: 733px) {
